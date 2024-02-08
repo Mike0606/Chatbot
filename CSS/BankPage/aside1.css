@@ -1,0 +1,37 @@
+aside{
+    display: flexbox;
+    float: left;
+    width: 24rem;
+    height: 37rem;
+    background: linear-gradient(to right, #030f1cce 0%, #183657 95%);
+    margin-right: 35px;
+    margin-bottom: 2px;
+}
+
+
+aside h3{
+    margin-top: 5px;
+    background-color: rgb(144, 148, 151);
+    text-align: center;
+    padding: 1.5px;
+    font-weight: bolder;
+}
+
+
+aside p{
+    margin-top: 9.5px;
+    margin-left: 7px;
+    margin-right: 5px;
+    padding: 5px;
+    color: rgb(87, 87, 87);
+    font-size: 15.6px;
+    font-weight: 540;
+}
+
+
+aside img{
+    margin: 8px 20px;
+    padding: 6px;
+    height: 30%;
+    width: 85%;
+}

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<link rel="stylesheet" href="../PBL/CSS/CreateAnAccount/account.css">
+	<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+
+	<title> Account Trial</title>
+</head>
+<body bgcolor=" #1c3045 ">
+
+	<div class="back-to-home">
+		<a href="BankPage1Trial.html"> Home </a>
+	</div>
+	
+	<center>
+		<form method="" id="accForm" name="AccForm">
+
+			<legend style="font-style: normal; font-size: 30px; text-align: center;">  Create An Account  </legend>
+
+			<table border="5">
+				<tr>
+					<th colspan="2"><h2>Fill in the details</h2></th>
+				</tr>
+				<tr>
+					<td> First Name </td>
+					<td><input type="text" id="fname" required>  </td>
+				</tr>
+				<tr>
+					<td> Middle Name </td>
+					<td><input type="text" id="mname" required>  </td>
+				</tr>
+				<tr>
+					<td> Last Name </td>
+					<td><input type="text" id="lname" required>  </td>
+				</tr>
+				<tr>
+					<td> E-mail </td>
+					<td><input type="email" id="email" required>  </td>
+				</tr>
+				<tr>
+					<td> Address </td>
+					<td><textarea name="address" id="address" cols="20" rows="3" required></textarea>  </td>
+				</tr>
+				<tr>
+					<td> State </td>
+					<td><input type="text" id="state" required>  </td>
+				</tr>
+				<tr>
+					<td> City </td>
+					<td><input type="text" id="city" required>  </td>
+				</tr>
+				<tr>
+					<td> District </td>
+					<td><input type="text" id="district" required>  </td>
+				</tr>
+				<tr>
+					<td> PIN Code </td>
+					<td><input type="tel" maxlength="6" id="pincode" required>  </td>
+				</tr>
+				<tr>
+					<td> Branch </td>
+					<td><input type="text" id="branch" required>  </td>
+				</tr>
+				<tr>
+					<td> Contact Number </td>
+					<td><input type="tel" maxlength="10" pattern="[7-9]{1}[0-9]{9}" id="contactno" required>  </td>
+				</tr>
+				<tr>
+					<td> PAN Number </td>
+					<td><input type="text" maxlength="10" pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}" id="panno" required>  </td>
+				</tr>
+				<tr>
+					<td><input type="reset"> </td>
+					<td><input type="submit"> </td>
+					<!-- <td><input type="submit" onclick="sendData()"> </td> -->
+				</tr>
+			</table>
+
+		</form>
+	</center>
+
+	<!-- <script type="text/javascript">
+		function sendData(){
+			var fname=document.getElementById("fname").value;
+			var mname=document.getElementById("mname").value;
+			var lname=document.getElementById("lname").value;
+			var email=document.getElementById("email").value;
+			var address=document.getElementById("address").value;
+			var state=document.getElementById("state").value;
+			var city=document.getElementById("city").value;
+			var district=document.getElementById("district").value;
+			var pincode=document.getElementById("pincode").value;
+			var branch=document.getElementById("branch").value;
+			var contact=document.getElementById("contactno").value;
+			var panno=document.getElementById("panno").value;
+
+			var httpr=new XMLHttpRequest();
+			httpr.open("post","");
+		}
+	</script> -->
+
+	<script type="text/javascript">
+		jQuery('#accForm').on('submit',function(){
+			alert('Account has been created successfully!!! \n Account number is MR76AJ4505!!');
+			// jQuery.ajax({
+			// 	url:'submit.php',
+			// 	type:'post',
+			// 	data:jQuery('#accForm').serialize(),
+			// 	success:function(result){
+			// 		alert(result);
+			// 	} 
+			// })
+			//e.preventDefault();
+		});
+	</script>
+
+
+	<!--
+	<center>
+		<fieldset>
+			<form>
+				<legend style="font-style: normal; font-size: 30px; text-align: center;"> Create A Bank Account </legend>
+			    <table>
+			    	<tr>
+		     			<td> First Name </td>
+		     			<td><input type="text" name="fname" size="30" maxlength="15" placeholder="Enter Your First Name" required autocomplete="on" autofocus="" >
+		     			</td>
+		     		</tr>
+		     		<tr>
+		     			<td class="bbb"> Last Name </td>
+		     			<td><input type="text" name="lname" size="30" maxlength="15" placeholder="Enter Your Last Name" required autocomplete="on">
+		     			</td>
+		     		</tr>
+		     		<tr>
+		     			<td> Email Id </td>
+		     			<td><input type="Email" name="Email" size="30" placeholder="Enter Your Email Id" required>
+		     			</td>
+		     		</tr>
+		     		<tr>
+		     			<td> Roll Number </td>
+		     			<td><input type="tel" name="rollno." maxlength="10" placeholder="Enter Your Roll Number">
+		     			</td>
+		     		</tr>
+		     		<tr>
+		     			<td> Training Programme </td>
+		     			<td>
+							<select>
+		    					<option value="op1">Select training</option>
+								<option value="op2">C++</option>
+								<option value="op3">Java</option>
+								<option value="op4">Python</option>
+		     				</select>
+						</td>
+			     	</tr>
+		    	 	<tr>
+		     			<td>Contact Number</td>
+		     			<td><input type="tel" name="tel_no" maxlength="10" placeholder="Enter Contact Number">
+		     			</td>
+		     		</tr>
+		     		<tr>
+						<td><input type="submit" name="submit"></td>
+						<td><input type="reset" name="reset"></td>
+					</tr>
+				</table>
+			</form>
+   		</fieldset>
+	</center>
+-->
+
+
+
+
+</body>
+</html>

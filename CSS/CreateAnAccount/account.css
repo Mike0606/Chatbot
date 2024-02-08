@@ -1,0 +1,71 @@
+.back-to-home a{
+    position: fixed;
+    left: 1%;
+    top: 2%;
+    /* height: 35px;
+    width: 120px; */
+    background-color: rgb(43, 48, 48);
+    color: rgb(194, 196, 199);
+    text-align: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: solid 1.7px rgba(77, 104, 144, 0.936);
+    text-decoration: none;
+    /* background-color: #234052f4; */
+}
+
+form{
+    margin: 32px 30px;
+}
+
+form legend{
+    color: rgb(194, 196, 199);
+    margin: 5px;
+}
+table{
+    border: solid 4px rgba(77, 104, 144, 0.936);
+    padding: 8px 15px;
+    margin: 13px 20px;
+    
+}
+/* bgcolor=" #1c3240 " */
+table h2{
+    color: rgb(195, 210, 232);
+    
+}
+
+/* table tr{
+    padding: 2px;
+} */
+
+table td{
+    color: rgb(194, 196, 199);
+    padding: 6px 40px;
+    font-size: 17px;
+}
+
+table input{
+    padding: 2px;
+    /* width: 200px; */
+}
+
+table input[type="submit"], input[type="reset"]{
+    padding: 7px 18px;
+    background-color: rgb(43, 48, 48);
+    color: rgb(194, 196, 199);
+    /* margin: 0 15px; */
+}
+table input[type="submit"]{
+    margin: 0 42px;
+}
+input[type="reset"]{
+    margin: 0 15px;
+}
+
+
+
+
+
+/* tr{
+    padding: 5px;
+} */

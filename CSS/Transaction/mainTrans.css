@@ -1,0 +1,12 @@
+main p{
+    font-size: 19px;
+    color: rgb(123, 123, 123);
+    display: block;
+    /* background-color: rgb(77, 114, 153); */
+}
+
+main img{
+    margin: 2px 70px;
+    width: 900px;
+    height: 500px;
+}

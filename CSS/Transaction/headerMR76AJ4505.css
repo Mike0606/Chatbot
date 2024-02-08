@@ -1,0 +1,10 @@
+.topDiv{
+    margin: 0;
+    margin-top: 18px;
+    width: 100%;
+    background-color: #314e5f;
+    color: #ffe8e8;
+    text-align: center;
+    padding: 7px;
+    border-radius: 20px;
+}

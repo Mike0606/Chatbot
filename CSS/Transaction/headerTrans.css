@@ -1,0 +1,216 @@
+body{
+    margin: 0;
+}
+
+
+.topDiv{
+    margin: 0;
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+.imgLogo{
+    margin-left: 290px;
+    align-items: center;
+    margin-right: 70px;
+}
+
+
+.topNav{
+    margin: 0;
+    padding: 0.25px;
+    justify-content: space-between;
+    font-size: 16.5px;
+    background-color: #314e5f;
+    color: #ffe8e8;
+}
+
+
+.topNav a{
+    padding: 13px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.topNav a:link{
+    color: rgb(116, 116, 117);
+}
+
+
+.topNav a:visited{
+    color: #5b7ea3;
+}
+
+
+.topNav a:hover{
+    color: #b86262;
+}
+
+
+.search-bar{
+    float: right;
+    margin-top: 25px;
+    margin-right: 90px;
+    padding: 2px;
+    
+}
+
+
+.search-bar input{
+    border: 1px solid rgb(80, 80, 82);  
+    border-radius: 1px;
+    background-color: #a2a4a5;
+    height: 20px;
+    width: 230px;
+    padding: 4px;
+    font-size: 14px;
+    margin-left: 25px;
+    margin-right: 2px;
+}
+
+
+.search-bar button{
+    float: right;
+    height: 30px;
+    color: #b6b9ba;
+    background-color: #678ca2;
+}
+
+
+.login{
+    float: right;
+    margin-top: 25px;
+    background-color: #a8b3bd;
+}
+
+
+.login button{
+    padding: 6px;
+    font-size: 15px;
+    
+    background-color: #678ca2;
+    color: #b6b9ba;
+    /* border: 2px #a2a4a5; */
+}
+
+/* -----------------------login form------------------------ */
+
+ 
+.login-popup{
+    box-sizing: border-box;
+    position: absolute;
+    display: none;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    width: 330px;
+    height: 350px;
+    padding: 15px 15px;
+    background-color: #ffffff;
+    box-shadow: 4px 4px 7px 7px rgba(0,0,0,0.75);
+}
+
+.login-popup .close-login{
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    height: 12px;
+    width: 12px;
+    color: rgb(255, 254, 254);
+    background: rgb(46, 46, 46);
+    text-align: center;
+    padding: 0.7px;
+    line-height: 13px;
+    border-radius: 8px;
+    opacity: 0.8;
+    transition-duration: 0.15s;
+    cursor: pointer;
+}
+
+.login-popup .close-login:hover{
+    background: rgb(244, 154, 154);
+  }
+  
+.login-popup .close-login:active{
+    background: rgb(169, 66, 66);
+  }
+
+  .login-form h2{
+    text-align: center;
+    margin: 2px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: #234963cd;
+    text-shadow: 1.5px 1.5px 1.5px rgb(223, 234, 199);
+    font-weight: bolder;
+  }
+
+.login-popup .login-form .form-element{
+    margin: 15px 5px;
+}
+
+.form-element input[type="text"],
+.form-element input[type="password"]{
+     display: block;
+     width: 100%;
+     padding: 8px 0;
+     border-top: none;
+     border-right: none;
+     border-left: none;
+     font-size: 15px;
+}
+
+
+
+.form-element input[type="checkbox"]{
+    margin-right: 5px;
+    
+}
+
+.login-popup .login-form .form-element button{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 2px;
+    font-size: 15px;
+    background: #314e5f;
+    color: #ffe8e8;
+    border: none;
+    cursor: pointer;
+}
+
+.login-popup .login-form .form-element label{
+    font-size: 14px;
+    color: #5b7ea3;
+}
+
+.login-popup .login-form .form-element a{
+    display: block;
+    text-align: right;
+    font-size: 12px;
+    color: #0c54a1;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.login-popup .login-form .form-element-submit button{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 2px;
+    font-size: 15px;
+    background: #314e5f;
+    color: #ffe8e8;
+    border: none;
+    cursor: pointer;
+    /* border: 5px #c8ffde; */
+}
+
+
+
+
+
+
+
+
